@@ -31,7 +31,7 @@ class zomg {
     */
     public function all() {
         mysql_select_db($this->config["db_name"], $this->connection);
-        $query = mysql_query("SELECT * FROM tips");
+        $query = mysql_query("SELECT * FROM ".$this->config['db_table']);
         
         while ($row = mysql_fetch_assoc($query)) {
             $results[] = $row;
@@ -47,7 +47,7 @@ class zomg {
     */
     public function random() {
         mysql_select_db($this->config["db_name"], $this->connection);
-        $query = mysql_query("SELECT * FROM tips ORDER BY RAND()");
+        $query = mysql_query("SELECT * FROM ".$this->config['db_table']." ORDER BY RAND()");
 
         return mysql_fetch_assoc($query);
     }
@@ -60,7 +60,8 @@ class zomg {
     */
     public function find($id) {
         mysql_select_db($this->config["db_name"], $this->connection);
-        $query = mysql_query("SELECT * FROM tips WHERE id = '$id'");
+        $query = mysql_query("SELECT * FROM ".$this->config['db_table']." WHERE id = '$id'");
+
         return mysql_fetch_assoc($query);
     }
 

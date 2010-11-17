@@ -5,13 +5,22 @@
         'server'     => 'localhost',
         'username'   => 'root',
         'password'   => 'root',
-        'db_name'=> 'gfda',
+        'db_name'    => 'gfda',
+        'db_table'   => 'tips'
     );
     
     $db = new zomg($settings);
     
     echo "<pre>";
-    print_r($db->find(2));
+    print_r($db->all());
+    echo "</pre>";
+    
+    echo "<pre>";
+    print_r($db->random());
+    echo "</pre>";
+    
+    echo "<pre>";
+    print_r($db->find(3));
     echo "</pre>";
     
 ?>
