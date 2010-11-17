@@ -14,8 +14,8 @@ class zomg {
         $this->connect();
         mysql_select_db($this->config["db_name"], $this->connection);
     }
-    
-    
+
+
     /**
      * Opens a connection with the fucking mysql server.
      * @return resource
@@ -24,8 +24,8 @@ class zomg {
         $this->connection = mysql_connect($this->config["server"], $this->config["username"], $this->config["password"]);
         return $this->connection;
     }
-    
-    
+
+
     /**
      * Selects all rows in the database table.
      * @return array
@@ -39,8 +39,8 @@ class zomg {
 
         return $results;
     }
-    
-    
+
+
     /**
      * Selects a random row in the database table.
      * @return array
@@ -50,8 +50,8 @@ class zomg {
 
         return mysql_fetch_assoc($query);
     }
-    
-    
+
+
     /**
      * Selects a specific row in the database table.
      * @param integer $id required. (Tip ID).
