@@ -22,6 +22,7 @@
           <li><a href="#">Home</a></li>
           <li><a href="#">About</a></li>
           <li><a href="#">Family Fucking Friendly</a></li>
+          <li><a href="#">More Fucking Resources</a></li> <!-- daytime talk show hosts (oprah, maury, dr. phil, montel, etc...) -->
           <li><a href="#">Contact</a></li>
         </ul>
       </div>
