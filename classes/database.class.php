@@ -5,7 +5,7 @@
 * @author Jake Dahn <jake@ang.st>
 * @version 1.0
 */
-class zomg {
+class FuckingDB {
 
     private $config = array();
 

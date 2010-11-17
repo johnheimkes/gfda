@@ -9,7 +9,7 @@
         'db_table'   => 'tips'
     );
     
-    $db = new zomg($settings);
+    $db = new FuckingDB($settings);
     
     echo "<pre>";
     print_r($db->all());
