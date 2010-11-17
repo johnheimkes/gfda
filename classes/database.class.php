@@ -21,25 +21,20 @@ class zomg {
     
     public function all() {
         mysql_select_db($this->config["db_name"], $this->connection);
-        $result = mysql_query("SELECT * FROM tips");
+        $query = mysql_query("SELECT * FROM tips");
         
-        while ($row = mysql_fetch_assoc($result)) {
+        while ($row = mysql_fetch_assoc($query)) {
             $results[] = $row;
         }
 
         return $results;
     }
+    
+    public function random() {
+        mysql_select_db($this->config["db_name"], $this->connection);
+        $query = mysql_query("SELECT * FROM tips ORDER BY RAND()");
+
+        return mysql_fetch_assoc($query);
+    }
 
 }
-
-
-// $settings = array(
-//     'server'     => 'localhost',
-//     'username'   => 'foo',
-//     'password'   => 'bar'
-// )
-// 
-// $settings["server"]
-// 
-// 
-// $db = databse()

@@ -10,10 +10,8 @@
     
     $db = new zomg($settings);
     
-    print_r($db->all());
-    
     echo "<pre>";
-    print_r($db->all());
+    print_r($db->random());
     echo "</pre>";
     
 ?>
