@@ -1,15 +1,8 @@
 <?php
-    require_once "classes/database.class.php";
-    
-    $settings = array(
-        'server'     => 'localhost',
-        'username'   => 'root',
-        'password'   => 'root',
-        'db_name'    => 'gfda',
-        'db_table'   => 'tips'
-    );
-    
-    $db = new FuckingDB($settings);
+    include "config.inc.php";
+    require_once "classes/class.fucking_db.php";
+        
+    $db = new FuckingDB($config);
     
     echo "<pre>";
     print_r($db->all());

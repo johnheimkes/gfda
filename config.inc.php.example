@@ -1,0 +1,9 @@
+<?
+    $config = array(
+        'server'     => 'dbserver (probably localhost)',
+        'username'   => 'user',
+        'password'   => 'pass',
+        'db_name'    => 'db_name',
+        'db_table'   => 'table_name'
+    );
+
