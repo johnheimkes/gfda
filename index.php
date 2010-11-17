@@ -1,3 +1,17 @@
+<?php
+    require_once "classes/database.class.php";
+    
+    $settings = array(
+        'server'     => 'localhost',
+        'username'   => 'root',
+        'password'   => 'root',
+        'server_name'=> 'gfda',
+    );
+    
+    $db = new zomg($settings);
+    
+    print_r($db->all());
+?>
 <!DOCTYPE html>
 <html lang="en" xml:lang="en">
   <head>
