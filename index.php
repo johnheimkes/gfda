@@ -5,12 +5,17 @@
         'server'     => 'localhost',
         'username'   => 'root',
         'password'   => 'root',
-        'server_name'=> 'gfda',
+        'db_name'=> 'gfda',
     );
     
     $db = new zomg($settings);
     
     print_r($db->all());
+    
+    echo "<pre>";
+    print_r($db->all());
+    echo "</pre>";
+    
 ?>
 <!DOCTYPE html>
 <html lang="en" xml:lang="en">
@@ -33,7 +38,7 @@
         </ul>
       </div>
       <div id="content">
-        content
+        
       </div>
       <div id="footer">
         footer
