@@ -11,7 +11,7 @@
     $db = new zomg($settings);
     
     echo "<pre>";
-    print_r($db->random());
+    print_r($db->find(2));
     echo "</pre>";
     
 ?>

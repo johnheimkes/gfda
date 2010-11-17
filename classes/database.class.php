@@ -36,5 +36,11 @@ class zomg {
 
         return mysql_fetch_assoc($query);
     }
+    
+    public function find($id) {
+        mysql_select_db($this->config["db_name"], $this->connection);
+        $query = mysql_query("SELECT * FROM tips WHERE id = '$id'");
+        return mysql_fetch_assoc($query);
+    }
 
 }
