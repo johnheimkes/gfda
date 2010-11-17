@@ -1,11 +1,11 @@
 <?php
-/**
-* Database class for goodfuckingdatingadvice.com
-* @author John Heimkes IV <johnh@ang.st>
-* @author Jake Dahn <jake@ang.st>
-* @version 1.0
-*/
-class FuckingDB {
+    /**
+    * Database class for goodfuckingdatingadvice.com
+    * @author John Heimkes IV <johnh@ang.st>
+    * @author Jake Dahn <jake@ang.st>
+    * @version 1.0
+    */
+    class FuckingDB {
 
     private $config = array();
 
@@ -32,7 +32,7 @@ class FuckingDB {
     */
     public function all() {
         $query = mysql_query("SELECT * FROM ".$this->config['db_table']);
-        
+
         while ($row = mysql_fetch_assoc($query)) {
             $results[] = $row;
         }
@@ -63,4 +63,4 @@ class FuckingDB {
         return mysql_fetch_assoc($query);
     }
 
-}
+    }
