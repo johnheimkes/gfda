@@ -18,7 +18,8 @@
     echo "<pre>";
     print_r($db->random());
     echo "</pre>";
-    
+
+
     echo "<pre>";
     print_r($db->find(3));
     echo "</pre>";

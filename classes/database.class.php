@@ -12,6 +12,7 @@ class zomg {
     function __construct($settings="") {
         $this->config = $settings;
         $this->connect();
+        mysql_select_db($this->config["db_name"], $this->connection);
     }
     
     
@@ -30,7 +31,6 @@ class zomg {
      * @return array
     */
     public function all() {
-        mysql_select_db($this->config["db_name"], $this->connection);
         $query = mysql_query("SELECT * FROM ".$this->config['db_table']);
         
         while ($row = mysql_fetch_assoc($query)) {
@@ -46,7 +46,6 @@ class zomg {
      * @return array
     */
     public function random() {
-        mysql_select_db($this->config["db_name"], $this->connection);
         $query = mysql_query("SELECT * FROM ".$this->config['db_table']." ORDER BY RAND()");
 
         return mysql_fetch_assoc($query);
@@ -59,7 +58,6 @@ class zomg {
      * @return array
     */
     public function find($id) {
-        mysql_select_db($this->config["db_name"], $this->connection);
         $query = mysql_query("SELECT * FROM ".$this->config['db_table']." WHERE id = '$id'");
 
         return mysql_fetch_assoc($query);
