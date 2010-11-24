@@ -63,14 +63,14 @@
 
 
         public function his() {
-            $query = mysql_query("SELECT * FROM ".$this->config['db_table']." WHERE gender = 'his'");
+            $query = mysql_query("SELECT * FROM ".$this->config['db_table']." WHERE gender = 'his' ORDER BY RAND()");
 
             return mysql_fetch_assoc($query);
         }
 
 
         public function hers() {
-            $query = mysql_query("SELECT * FROM ".$this->config['db_table']." WHERE gender = 'hers'");
+            $query = mysql_query("SELECT * FROM ".$this->config['db_table']." WHERE gender = 'hers' ORDER BY RAND()");
 
             return mysql_fetch_assoc($query);
         }

@@ -3,7 +3,7 @@
   require_once "classes/class.fucking_db.php";
 
   $db = new FuckingDB($config);
-  $tip = $db->random();
+  $tip = $db->his();
 ?>
 <!DOCTYPE html>
 <html lang="en" xml:lang="en">
