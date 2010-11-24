@@ -58,7 +58,7 @@
         public function find($id) {
             $query = mysql_query("SELECT * FROM ".$this->config['db_table']." WHERE id = '$id'");
 
-            return mysql_fetch_assoc();
+            return mysql_fetch_assoc($query);
         }
 
 
