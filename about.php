@@ -11,7 +11,7 @@
 
           <p>In the dead of night, during the great fucking blizzard of 2010, Jake Dahn crept out of bed and stepped into the fucking internets. That in and of itself should have been a sign to us all that he is more than just a man with an addiction to string cheese - he is a man of true dedication. To further the love of his lady friend, Jake Dahn needed to come up with something new.</p>
           
-          <p>And now he is in search of good fucking dating advice - so <a href="/contact">please send in your own tips</a> to help him and the hip young geeks out there trying to get past first base while we're sitting here on the internet.</p>
+          <p>And now he is in search of good fucking dating advice - so <a href="/contact">please send in your own tips</a> to help him and the hip young geeks out there trying to get past first base whilst we're sitting here on the internet.</p>
           
           
         </div>
