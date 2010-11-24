@@ -2,7 +2,17 @@
     include "header.php" 
 ?>
 
-    <iframe scrolling="no" src="https://spreadsheets.google.com/embeddedform?formkey=dDk0MFh3V1plRzBCSS1ZRWFQSE1saEE6MQ" width="820" height="650" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+    <script type="text/javascript">var host = (("https:" == document.location.protocol) ? "https://secure." : "http://");document.write(unescape("%3Cscript src='" + host + "wufoo.com/scripts/embed/form.js' type='text/javascript'%3E%3C/script%3E"));</script>
+
+    <script type="text/javascript">
+    var z7x4a3 = new WufooForm();
+    z7x4a3.initialize({
+    'userName':'gfda', 
+    'formHash':'z7x4a3', 
+    'autoResize':true,
+    'height':'497'});
+    z7x4a3.display();
+    </script>
 <?php 
     include "footer.php" 
 ?>

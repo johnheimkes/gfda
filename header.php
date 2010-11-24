@@ -15,7 +15,7 @@
           <h2 id="his"><a href="/his">His</a></h2>
           <h2 id="hers"><a href="/hers">Hers</a></h2>
         </div>
-        <h1><a href="#">Good Fucking Dating Advice</a></h1>
+        <h1><a href="/">Good Fucking Dating Advice</a></h1>
       </div>
       <div id="content">
         <div class="separator"></div>
