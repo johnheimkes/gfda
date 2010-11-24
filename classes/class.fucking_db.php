@@ -62,6 +62,10 @@
         }
 
 
+        /**
+         * Selects the fucking 'his' column in the database table.
+         * @return array
+        */
         public function his() {
             $query = mysql_query("SELECT * FROM ".$this->config['db_table']." WHERE gender = 'his' ORDER BY RAND()");
 
@@ -69,14 +73,14 @@
         }
 
 
+        /**
+         * Selects the fucking 'hers' column in the database table.
+         * @return array
+        */
         public function hers() {
             $query = mysql_query("SELECT * FROM ".$this->config['db_table']." WHERE gender = 'hers' ORDER BY RAND()");
 
             return mysql_fetch_assoc($query);
         }
     }
-    
-    
-    
-    
-    
+ 
