@@ -1,0 +1,4 @@
+RewriteEngine on
+RewriteRule ^show/?([0-9]+)/?$ show.php?id=$1
+RewriteRule ^his/?$ his.php
+RewriteRule ^hers/?$ hers.php
