@@ -58,8 +58,25 @@
         public function find($id) {
             $query = mysql_query("SELECT * FROM ".$this->config['db_table']." WHERE id = '$id'");
 
+            return mysql_fetch_assoc();
+        }
+
+
+        public function his() {
+            $query = mysql_query("SELECT * FROM ".$this->config['db_table']." WHERE gender = 'his'");
+
             return mysql_fetch_assoc($query);
         }
 
-        public function him()
+
+        public function hers() {
+            $query = mysql_query("SELECT * FROM ".$this->config['db_table']." WHERE gender = 'hers'");
+
+            return mysql_fetch_assoc($query);
+        }
     }
+    
+    
+    
+    
+    
