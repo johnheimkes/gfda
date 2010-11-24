@@ -2,7 +2,7 @@
     include "header.php" 
 ?>
         <img id="sad_jake" src="public/images/sad_jake.jpg" width="400" height="554" alt="Sad Jake" />
-        <p class="caption">Rachel, this site was made for me for you :)</p>
+        <p class="caption">Rachel, this site was made for me... for you :)</p>
         
         <div id="about">
           <h3>What the fuck is this?</h3>
