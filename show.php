@@ -3,7 +3,7 @@
   require_once "classes/class.fucking_db.php";
 
   $db = new FuckingDB($config);
-  $tip = $db->hers();
+  $tip = $db->find($_GET["id"]);
 ?>
 <!DOCTYPE html>
 <html lang="en" xml:lang="en">
