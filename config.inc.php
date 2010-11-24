@@ -1,8 +1,8 @@
 <?
     $config = array(
-        'server'     => 'localhost',
+        'server'     => 'looce.com',
         'username'   => 'root',
-        'password'   => 'root',
+        'password'   => '',
         'db_name'    => 'gfda',
         'db_table'   => 'tips'
     );

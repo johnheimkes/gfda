@@ -13,26 +13,34 @@
     <meta name="Robots" content="index,all" />
     <meta name="Keywords" content="good, fucking, dating, advice" />
     <meta name="Description" content="Good Fucking Dating Advice &mdash; Your guide to dating since two thousand fucking ten." />
+    <link rel="stylesheet" href="./public/css/style.css" type="text/css" media="screen" charset="utf-8" />
   </head>
   <body>
     <div id="wrapper">
       <div id="header">
-        <h1>Good Fucking Dating Advice</h1>
-        <ul id="nav">
-          <li><a href="#">Home</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Family Fucking Friendly</a></li>
-          <li><a href="#">More Fucking Resources</a></li> <!-- daytime talk show hosts (oprah, maury, dr. phil, montel, etc...) -->
-          <li><a href="#">Contact</a></li>
-        </ul>
+        <div id="filter">
+          <h2 id="his"><a href="#">His</a></h2>
+          <h2 id="hers"><a href="#">Hers</a></h2>
+        </div>
+        <h1><a href="#">Good Fucking Dating Advice</a></h1>
       </div>
       <div id="content">
-        <div class="advice">
+        <div class="separator"></div>
+        <div class="advice <?=$tip["gender"]?>">
           <h2><?= $tip["body"] ?></h2>
         </div>
+        <div class="separator"></div>
       </div>
       <div id="footer">
-        <p class="copy">&copy; <?= date("Y")?> John Heimkes IV &mdash; Inspired by <a href="http://goodfuckingdesignadvice.com" target="_blank" title="Good Fucking Design Advice.">this</a>.</p>
+        <h3>More Fucking Information</h3>
+        <ul id="nav">
+          <li><a href="#">WTF is this?</a></li>
+          <li><a href="#">Youngin' Fucking Friendly</a></li>
+          <li><a href="#">More Fucking Resources</a></li> <!-- daytime talk show hosts (oprah, maury, dr. phil, montel, etc...) -->
+          <li><a href="#">Fucking Contact Us</a></li>
+        </ul>
+        
+        <p class="copy">&copy; <?= date("Y")?> MarkupIsArt &mdash; Inspired by <a href="http://goodfuckingdesignadvice.com" target="_blank" title="Good Fucking Design Advice.">this</a>.</p>
       </div>  
     </div>
   </body>
