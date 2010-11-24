@@ -3,6 +3,5 @@ RewriteRule ^show/?([0-9]+)/?$ show.php?id=$1
 RewriteRule ^his/?$ his.php
 RewriteRule ^hers/?$ hers.php
 RewriteRule ^about/?$ about.php
-RewriteRule ^resources/?$ resources.php
-RewriteRule ^contact/?$ contact.php
+RewriteRule ^help/?$ help.php
 RewriteRule ^friendly/?$ friendly.php
