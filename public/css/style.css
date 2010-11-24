@@ -169,3 +169,7 @@ p.caption {
 	font-weight: normal;
 }
 
+.friendly {
+	text-decoration: line-through;
+
+}
