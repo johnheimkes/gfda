@@ -13,14 +13,14 @@
     <meta name="Robots" content="index,all" />
     <meta name="Keywords" content="good, fucking, dating, advice" />
     <meta name="Description" content="Good Fucking Dating Advice &mdash; Your guide to dating since two thousand fucking ten." />
-    <link rel="stylesheet" href="./public/css/style.css" type="text/css" media="screen" charset="utf-8" />
+    <link rel="stylesheet" href="/public/css/style.css" type="text/css" media="screen" charset="utf-8" />
   </head>
   <body>
     <div id="wrapper">
       <div id="header">
         <div id="filter">
-          <h2 id="his"><a href="#">His</a></h2>
-          <h2 id="hers"><a href="#">Hers</a></h2>
+          <h2 id="his"><a href="/his">His</a></h2>
+          <h2 id="hers"><a href="/hers">Hers</a></h2>
         </div>
         <h1><a href="#">Good Fucking Dating Advice</a></h1>
       </div>
