@@ -42,7 +42,7 @@ h1 a {
 }
 
 
-#his, #hers {
+#his a, #hers a{
 	display: block;
 	width: 125px;
 	height: 124px;
@@ -51,16 +51,16 @@ h1 a {
 	cursor: pointer;
 }
 
-#his { 
+#his a { 
 	background: url(../images/his_badge.png) top left no-repeat;
 	margin-right: -18px;
 }
 
-#hers { 
+#hers a{ 
 	background: url(../images/her_badge.png) top left no-repeat; 
 }
 
-#his:hover, #hers:hover {
+#his a:hover, #hers a:hover {
 	background-position: bottom;
 }
 
