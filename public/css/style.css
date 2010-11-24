@@ -1,3 +1,5 @@
+/* @override http://gfda.com/public/css/style.css */
+
 /* @override http://looce.com/gfda/public/css/style.css */
 
 @import url("reset.css");
@@ -136,27 +138,34 @@ p.copy {
 }
 
 
+#sad_jake {
+	float: left;
+	margin-right: 50px;
+	margin-top: 50px;
+}
 
+p.caption {
+	float: left;
+	width: 400px;
+	font-style: italic;
+	color: #999;
+	font-size: 12px;
+	text-align: center;
+	margin-top: 10px;
+	margin-bottom: 50px;
+}
 
+#about {
+	margin-top: 50px;
+}
+#about p {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	line-height: 22px;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+#about h3 {
+	font-size: 39px;
+	font-weight: normal;
+}
 
