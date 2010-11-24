@@ -25,7 +25,7 @@
 
 
         /**
-         * Selects all rows in the database table.
+         * Selects all rows in the fucking database table.
          * @return array
         */
         public function all() {
@@ -40,7 +40,7 @@
 
 
         /**
-         * Selects a random row in the database table.
+         * Selects a random fucking row in the database table.
          * @return array
         */
         public function random() {
@@ -51,14 +51,32 @@
 
 
         /**
-         * Selects a specific row in the database table.
+         * Selects a specific row in the fucking database table.
          * @param integer $id required. (Tip ID).
          * @return array
         */
         public function find($id) {
             $query = mysql_query("SELECT * FROM ".$this->config['db_table']." WHERE id = '$id'");
 
+            return mysql_fetch_assoc();
+        }
+
+
+        public function his() {
+            $query = mysql_query("SELECT * FROM ".$this->config['db_table']." WHERE gender = 'his' ORDER BY RAND()");
+
             return mysql_fetch_assoc($query);
         }
 
+
+        public function hers() {
+            $query = mysql_query("SELECT * FROM ".$this->config['db_table']." WHERE gender = 'hers' ORDER BY RAND()");
+
+            return mysql_fetch_assoc($query);
+        }
     }
+    
+    
+    
+    
+    
