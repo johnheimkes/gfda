@@ -11,7 +11,7 @@
 
           <p>In the dead of night, during the fucking great blizzard of the century, Jake Dahn crept out of bed and stepped into the fucking internet. That in it of itself should have been a sign to us that he is more than just a man with an addiction to string cheese - he had been secretly hoarding a ton of good fucking dating advice.</p>
           
-          <p>and now jake dahn is offering the worlds greatest fucking dating advice - but don't let that stop you from sending in your own tips for the hip young kids out there trying to get past first base while we're here in the internet.</p>
+          <p>And now Jake Dahn is needing the worlds greatest fucking dating advice - so please send in your own tips for him and the hip young kids out there trying to get past first base while we're here in the internet.</p>
           
           
         </div>
